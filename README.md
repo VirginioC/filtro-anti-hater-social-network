@@ -20,7 +20,7 @@ Inoltre è presente anche la colonna `sum_injurious` che somma tutte le eventual
 1. **Analisi descrittiva**:
    - Il 90 % dei commenti risulta non dannoso mentre il restante 10 % ha almeno una label pari ad 1: dataset fortemente sbilanciato.
    - Anche le diverse labels risultano sbilanciate tra di loro:
-![frequenza_labels](https://github.com/VirginioC/filtro-anti-hater-social-network/blob/main/frequenza_labels.png)
+![frequenze_labels](https://github.com/VirginioC/filtro-anti-hater-social-network/blob/main/frequenze_labels.png)
    - La matrice di co-occorrenza indica che le labels oltre ad essere sbilanciate sono spesso presenti simultaneamente: si preferisce quindi optare per l'uso di pesi personalizzati piuttosto che tecniche di undersampling/oversampling.
 
 2. **Preprocessing dei dati**:
