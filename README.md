@@ -40,7 +40,7 @@ Inoltre è presente anche la colonna `sum_injurious` che somma tutte le eventual
        - **`LSTM Model`**:
        - **`Bidirectional LSTM Model`**
        - **`Convolutional Bidirectional LSTM Model`**
-     - Per il **training** e l'**evaluation** dei modelli vengono costruite delle specifiche funzioni dettagliatamente descritte nel notebook. In particolare, si cerca di contrastare lo sbilanciamento delle classi durante l'addestramento tramite la funzione `weighted_binary_crossentropy` che restituisce una funzione di perdita che calcola la cross-entropia binaria ponderata tra le etichette reali e le probabilità previste applicando dei pesi personalizzati per ciascuna label (calcolati come l'inverso delle frequenze relative delle classi positive delle labels normalizzate).
+     - Per il **training** e l'**evaluation** dei modelli vengono costruite delle specifiche funzioni dettagliatamente descritte nel notebook. In particolare, si cerca di contrastare lo sbilanciamento delle classi durante l'addestramento tramite la funzione `weighted_binary_crossentropy`. Essa restituisce una funzione di perdita che calcola la cross-entropia binaria ponderata tra le etichette reali e le probabilità previste applicando dei pesi personalizzati per ciascuna label (calcolati come l'inverso delle frequenze relative delle classi positive delle labels normalizzate).
      - Il modello "migliore" risulta essere quello che utilizza il `Bidirectional LSTM` come layer ricorrente. Esso ha la seguente architettura:
        
        ```python
