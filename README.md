@@ -1,7 +1,7 @@
 # Filtro anti-hater per social network
 
 ## Descrizione e obiettivi del progetto
-Questo progetto, realizzato durante il Master in Data Science di Profession AI, ha come obiettivo l'automatizzazione del processo di moderazione dei commenti tossici su un forum online, affrontando l’inefficacia dei metodi tradizionali. A tale scopo viene costruito un modello di Deep Learning con layer ricorrenti per classificare i commenti in sei categorie di tossicità, permettendo un filtraggio in tempo reale (**classificazione multilabel**). Il modello viene sviluppato in **Python** su ambiente **Google Colab**, sfruttando la libreria **Keras** all'interno di **TensorFlow**.<br>
+Questo progetto, realizzato durante il Master in Data Science di ProfessionAI, ha come obiettivo l'automatizzazione del processo di moderazione dei commenti tossici su un forum online, affrontando l’inefficacia dei metodi tradizionali. A tale scopo viene costruito un modello di Deep Learning con layer ricorrenti per classificare i commenti in sei categorie di tossicità, permettendo un filtraggio in tempo reale (**classificazione multilabel**). Il modello viene sviluppato in **Python** su ambiente **Google Colab**, sfruttando la libreria **Keras** all'interno di **TensorFlow**.<br>
 Il fine è quindi ridurre il carico della moderazione manuale, migliorare l’accuratezza nel rilevamento dei contenuti offensivi e garantire un ambiente online più sicuro e inclusivo. 
 
 ## Dataset
